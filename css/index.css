@@ -239,14 +239,18 @@ footer {
     justify-content: space-evenly;
     text-align: center;
     border: 2px solid red;
+    color:aliceblue;
 }
 
+.emails{
+    background-color: rgb(0, 4, 17, 0.8);
+    border: 2px solid red;
+}
 .copyright {
     background-color: rgb(0, 4, 17, 0.8);
     display: flex;
-    /* justify-content: space-evenly; */
-    /* text-align: center; */
-    border: 2px solid yellow;
+    justify-content: flex-end;
+    color: white;
 }
 
 /* mobile media query */

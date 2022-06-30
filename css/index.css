@@ -258,17 +258,57 @@ footer {
 /* mobile media query */
 @media (max-width: 428px) {
     /* header section */
-    
+    header{
+        width: 100%;
+        height: 65vh;
+        border: 2px solid red;
+    }
 
+    header a {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        
+    }
+
+    .nav-header{
+        width: 100%; 
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    }
+    .social{
+        /* display: flex; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* border: 2px solid red; */
+        /* flex-direction: row; */
+    }
+
+    .social i {
+        display: flex;
+        
+    }
     /* gallery section */
     .gallery {
-        height: auto;
+        width:100%;
+        justify-content: center;
+ 
     }
     
+    .gallery-pictures{
+        width: 60%;
+        justify-content: center;
+        padding: 0 2%;
+    }
     /* about us section */
 
     .about {
-        height: 200vh;
+        height: 300vh;
+        /* border: 2px solid rebeccapurple; */
     }
     
     .about h2 {
@@ -281,8 +321,10 @@ footer {
     }
     
     /* contact us section */
+    
     .contact h3 {
         padding-top: 2.5vh;
+        font-size: 90%;
     }
     
     .info {
@@ -305,8 +347,46 @@ footer {
 
     /* footer section */
     footer {
+        width: auto;
         height: auto;
-        padding-top: 2.5vh;
+        padding-top: 0.5vh;
         font-size: 2rem;
+        border: 2px solid red;
+    }
+    .footer-content{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+    }
+
+    .emails{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .emails button {
+        width: 35%;
+        padding: 0 2px;
+        
+    }
+    .nav-footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
     }
 }
